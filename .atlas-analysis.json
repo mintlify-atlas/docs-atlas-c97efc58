@@ -1,0 +1,153 @@
+{
+  "projectType": "general",
+  "projectName": "System Design Primer",
+  "projectDescription": "Learn how to design large-scale systems and prep for the system design interview.",
+  "theme": "aspen",
+  "primaryColor": "#2563eb",
+  "lightColor": "#3b82f6",
+  "darkColor": "#1e40af",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Learn",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "study-guide",
+              "interview-approach"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/performance-vs-scalability",
+              "concepts/latency-vs-throughput",
+              "concepts/availability-vs-consistency",
+              "concepts/cap-theorem",
+              "concepts/consistency-patterns",
+              "concepts/availability-patterns"
+            ]
+          },
+          {
+            "group": "System Components",
+            "pages": [
+              "components/dns",
+              "components/cdn",
+              "components/load-balancer",
+              "components/reverse-proxy",
+              "components/application-layer",
+              "components/database",
+              "components/cache",
+              "components/asynchronism",
+              "components/communication",
+              "components/security"
+            ]
+          },
+          {
+            "group": "Database",
+            "pages": [
+              "database/rdbms",
+              "database/nosql",
+              "database/sql-vs-nosql",
+              "database/replication",
+              "database/federation",
+              "database/sharding",
+              "database/denormalization",
+              "database/sql-tuning"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Interview Prep",
+        "groups": [
+          {
+            "group": "System Design Questions",
+            "pages": [
+              "interviews/system-design/pastebin",
+              "interviews/system-design/twitter",
+              "interviews/system-design/web-crawler",
+              "interviews/system-design/mint",
+              "interviews/system-design/social-network",
+              "interviews/system-design/key-value-store",
+              "interviews/system-design/sales-rank",
+              "interviews/system-design/scaling-aws"
+            ]
+          },
+          {
+            "group": "Object-Oriented Design",
+            "pages": [
+              "interviews/oop/hash-map",
+              "interviews/oop/lru-cache",
+              "interviews/oop/call-center",
+              "interviews/oop/deck-of-cards",
+              "interviews/oop/parking-lot",
+              "interviews/oop/chat-server"
+            ]
+          },
+          {
+            "group": "Additional Questions",
+            "pages": [
+              "interviews/additional-questions"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "References",
+            "pages": [
+              "resources/anki-flashcards",
+              "resources/real-world-architectures",
+              "resources/company-blogs",
+              "resources/calculations"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/contributing",
+              "community/translations"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Comprehensive system design topics and principles",
+    "System design interview questions with detailed solutions",
+    "Object-oriented design patterns and examples",
+    "Real-world architecture case studies",
+    "Anki flashcards for spaced repetition learning",
+    "Back-of-the-envelope calculation guides"
+  ],
+  "publicApiSurface": [
+    "Performance vs Scalability",
+    "Latency vs Throughput",
+    "Availability vs Consistency",
+    "CAP Theorem",
+    "Consistency Patterns (Weak, Eventual, Strong)",
+    "Availability Patterns (Fail-over, Replication)",
+    "Domain Name System (DNS)",
+    "Content Delivery Network (CDN)",
+    "Load Balancer (Layer 4 and Layer 7)",
+    "Reverse Proxy",
+    "Application Layer & Microservices",
+    "Database (RDBMS, NoSQL)",
+    "Master-Slave Replication",
+    "Master-Master Replication",
+    "Federation",
+    "Sharding",
+    "Denormalization",
+    "SQL Tuning",
+    "Cache Patterns (Cache-aside, Write-through, Write-behind, Refresh-ahead)",
+    "Asynchronism (Message Queues, Task Queues)",
+    "Communication Protocols (TCP, UDP, RPC, REST)",
+    "Security Principles"
+  ]
+}
